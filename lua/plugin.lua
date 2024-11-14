@@ -26,5 +26,6 @@ Plug('quarto-dev/quarto-nvim')
 Plug("jpalardy/vim-slime")
 Plug('jmbuhr/otter.nvim')
 Plug('akinsho/toggleterm.nvim', {['tag'] = '*'}) -- terminalを開く
+Plug("toppair/peek.nvim") -- preview markdownn
 
 vim.call('plug#end')
