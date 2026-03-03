@@ -1,0 +1,4 @@
+- [2026-02-11 00:00] 🔧 `lua/plugins/firenvim.lua` を修正しました（firenvim設定の調整）。
+  - `takeover = "always"` に変更: テキストエリアで自動起動
+  - `cmdline = "firenvim"` に変更: 小さいポップアップ形式のコマンドライン
+  - UI系プラグインを追加で無効化: snacks.nvim, neo-tree, telescope, bufferline

@@ -47,8 +47,7 @@ local options = {
 	splitright = false, -- オンのとき、ウィンドウを縦分割すると新しいウィンドウはカレントウィンドウの右に開かれる
 }
 
-vim.opt.shortmess:append("c")
-
+-- vim.opt.shortmess:append("c")
 
 for k, v in pairs(options) do
 	vim.opt[k] = v
