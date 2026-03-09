@@ -4,7 +4,17 @@ return {
   ft = { "tex", "latex" },
   -- tag = "v2.15", -- uncomment to pin to a specific release
   init = function()
-    -- VimTeX configuration goes here, e.g.
     vim.g.vimtex_view_method = "zathura"
-  end
+  end,
+  keys = {
+    {
+      "<leader>lb",
+      function()
+        vim.cmd("write")
+        vim.cmd("VimtexCompileSS")
+      end,
+      ft = "tex",
+      desc = "LaTeX: 保存して単発コンパイル",
+    },
+  },
 }
