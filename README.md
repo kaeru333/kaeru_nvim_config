@@ -1,6 +1,6 @@
 # Neovim Configuration
 
-Arch Linux 向けの個人用 Neovim 設定ファイル群です。lazy.nvim ベースで構成されており、fish シェル環境での使用を前提としています。
+個人用 Neovim 設定ファイル群です。lazy.nvim ベースで構成されており、fish シェル環境での使用を前提としています。Arch Linux および macOS に対応しています。
 
 ## 概要
 
@@ -15,7 +15,7 @@ Arch Linux 向けの個人用 Neovim 設定ファイル群です。lazy.nvim ベ
 
 ## 必要な環境
 
-- **OS**: Arch Linux
+- **OS**: Arch Linux / macOS
 - **Neovim**: v0.10.0 以上
 - **シェル**: fish
 - **Git**: コマンドライン操作用
@@ -23,8 +23,11 @@ Arch Linux 向けの個人用 Neovim 設定ファイル群です。lazy.nvim ベ
 ### 推奨パッケージ
 
 ```bash
-# Arch Linux でのインストール例
+# Arch Linux
 sudo pacman -S neovim fish git ripgrep fd
+
+# macOS (Homebrew)
+brew install neovim fish git ripgrep fd
 ```
 
 ## インストール
