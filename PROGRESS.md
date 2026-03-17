@@ -2,3 +2,7 @@
   - `takeover = "always"` に変更: テキストエリアで自動起動
   - `cmdline = "firenvim"` に変更: 小さいポップアップ形式のコマンドライン
   - UI系プラグインを追加で無効化: snacks.nvim, neo-tree, telescope, bufferline
+- [2026-03-17 00:00] 🚀 タスク「IME自動切替機能の実装」を開始しました。
+- [2026-03-17 00:00] 🔧 `git pull` でリモートの変更を取得しました（6351d7a: macOS対応のvimtex変更）。
+- [2026-03-17 00:00] 📝 `lua/plugins/im-select.lua` を新規作成しました（im-select.nvim プラグイン設定）。
+- [2026-03-17 00:00] ✅ 実装完了。Neovim再起動でプラグインが自動インストールされます。
